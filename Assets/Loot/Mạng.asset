@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 071a770077cb1d947bfbb099b60e01ec, type: 3}
+  m_Name: "M\u1EA1ng"
+  m_EditorClassIdentifier: 
+  lootPrefab: {fileID: 3874558086908649606, guid: 1e97e74f98b926d4b917f36f7ac7c04f, type: 3}
+  lootName: "M\u1EA1ng"
+  dropChance: 25
