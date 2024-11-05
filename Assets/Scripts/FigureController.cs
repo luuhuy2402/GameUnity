@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class FigureController : MonoBehaviour
 {
 	public float moveBackDistance = 2.0f; // Khoảng cách lùi lại
 	public float waitTime = 30.0f; // Thời gian chờ trước khi lùi lại (30 giây)
