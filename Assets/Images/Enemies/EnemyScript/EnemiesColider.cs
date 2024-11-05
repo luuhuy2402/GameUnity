@@ -45,7 +45,7 @@ public class EnemiesColider : MonoBehaviour
         // }
         if (other.gameObject.CompareTag("Bullet"))
         {
-            TakeDamage(2f);
+            TakeDamage(0.5f);
             Destroy(other.gameObject);
         }
     }
