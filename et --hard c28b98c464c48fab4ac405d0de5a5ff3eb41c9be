@@ -1,0 +1,115 @@
+[33mcommit 8e67124d9961f750d2dc219a5b31b079c6af8ca3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mhieu[m[33m, [m[1;31morigin/hieu[m[33m)[m
+Author: luuhuy2402 <xeoxeo1895@gmail.com>
+Date:   Tue Nov 5 23:42:10 2024 +0700
+
+    Update ShotingItem.cs.meta
+
+[33mcommit f902a2ff54607003eb92f36a98e10201e5bef753[m
+Author: luuhuy2402 <xeoxeo1895@gmail.com>
+Date:   Tue Nov 5 23:41:08 2024 +0700
+
+    merge
+
+[33mcommit c28b98c464c48fab4ac405d0de5a5ff3eb41c9be[m
+Author: luuhuy2402 <xeoxeo1895@gmail.com>
+Date:   Tue Nov 5 23:23:09 2024 +0700
+
+    Quai
+
+[33mcommit cbaed52e58a27fdaa66f2836e276270c1860c492[m
+Merge: e1aec98 1c70046
+Author: luuhuy2402 <xeoxeo1895@gmail.com>
+Date:   Tue Nov 5 22:53:13 2024 +0700
+
+    Merge branch 'GiangMinh' into hieu
+
+[33mcommit e1aec98b9b17e02389c5733cb6608cba920acd17[m
+Author: luuhuy2402 <xeoxeo1895@gmail.com>
+Date:   Tue Nov 5 22:42:13 2024 +0700
+
+    first commit
+
+[33mcommit 1c700461b940b87182669c2dae461bf8eac565aa[m[33m ([m[1;31morigin/GiangMinh[m[33m, [m[1;32mGiangMinh[m[33m)[m
+Author: Giang Minh <dominhgiang12@gmail.com>
+Date:   Tue Nov 5 22:25:53 2024 +0700
+
+    done base enemies
+
+[33mcommit ded5fa7dbdd99560ea54d2bef980c393c8eaa7bf[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Merge: 250eaa1 9556b2c
+Author: luuhuy2402 <113779220+luuhuy2402@users.noreply.github.com>
+Date:   Tue Nov 5 21:54:46 2024 +0700
+
+    Merge pull request #3 from luuhuy2402/HuyHieu
+    
+    Huy hieu
+
+[33mcommit 9556b2c2fcab23c71fced1935c3ac2d55ab7636e[m[33m ([m[1;31morigin/HuyHieu[m[33m, [m[1;32mHuyHieu[m[33m)[m
+Author: luuhuy2402 <xeoxeo1895@gmail.com>
+Date:   Tue Nov 5 21:53:49 2024 +0700
+
+    Code vật phẩm
+
+[33mcommit c809c9819e43d7706d93c2abaaafcbe5c66555ca[m
+Author: luuhuy2402 <xeoxeo1895@gmail.com>
+Date:   Tue Nov 5 20:39:12 2024 +0700
+
+    fix background
+
+[33mcommit 66fe095f8d8c031ec759e8758ebc0d5d96befa8b[m
+Author: luuhuy2402 <xeoxeo1895@gmail.com>
+Date:   Tue Nov 5 20:27:54 2024 +0700
+
+    fix menu
+
+[33mcommit 250eaa16b19f142fba521e07878c50238881d04c[m
+Author: luuhuy2402 <xeoxeo1895@gmail.com>
+Date:   Tue Nov 5 06:43:42 2024 +0700
+
+    HP & Attack
+
+[33mcommit 1c590a21e17b1861fc46f5f6098594be3c5f91c0[m
+Merge: f83c0d6 cc14c5d
+Author: luuhuy2402 <xeoxeo1895@gmail.com>
+Date:   Tue Nov 5 06:30:57 2024 +0700
+
+    Merge branch 'main' of https://github.com/luuhuy2402/GameUnity
+
+[33mcommit f83c0d60ab183a7edfbf3854ed621fbd895979dc[m
+Author: luuhuy2402 <xeoxeo1895@gmail.com>
+Date:   Sun Nov 3 20:52:35 2024 +0700
+
+    New
+
+[33mcommit cc14c5d09ebdd216deab51975d4a3072084c3e9c[m
+Merge: fd5fdad 0eca72c
+Author: luuhuy2402 <113779220+luuhuy2402@users.noreply.github.com>
+Date:   Thu Oct 24 17:07:13 2024 +0700
+
+    Merge pull request #1 from luuhuy2402/HuyHieu
+    
+    fix main menu
+
+[33mcommit 0eca72c643a0bc888e597bb8d94965af52d9093f[m
+Author: luuhuy2402 <xeoxeo1895@gmail.com>
+Date:   Thu Oct 24 17:03:33 2024 +0700
+
+    fix main menu
+
+[33mcommit fd5fdadfbb166e7382007e542d11e25acf0a0de2[m
+Author: luuhuy2402 <xeoxeo1895@gmail.com>
+Date:   Thu Oct 24 14:42:49 2024 +0700
+
+    Delete file
+
+[33mcommit f05856ba407daaf1fe355912c13910d14243e320[m
+Author: luuhuy2402 <xeoxeo1895@gmail.com>
+Date:   Thu Oct 24 14:38:54 2024 +0700
+
+    commit
+
+[33mcommit 7f83f4fb9e96dde850005e28bd66f643b59c9c38[m
+Author: luuhuy2402 <113779220+luuhuy2402@users.noreply.github.com>
+Date:   Thu Oct 24 14:35:13 2024 +0700
+
+    Initial commit

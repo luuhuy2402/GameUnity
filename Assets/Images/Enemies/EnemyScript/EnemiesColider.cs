@@ -35,7 +35,8 @@ public class EnemiesColider : MonoBehaviour
 
     void Die()
     {
-        Destroy(gameObject);
+		GetComponent<LootBag>().InstantiateLoot(transform.position);
+		Destroy(gameObject);
     }
     private void OnCollisionEnter2D(Collision2D other)
     {
@@ -45,7 +46,7 @@ public class EnemiesColider : MonoBehaviour
         // }
         if (other.gameObject.CompareTag("Bullet"))
         {
-            TakeDamage(0.5f);
+            TakeDamage(1f);
             Destroy(other.gameObject);
         }
     }

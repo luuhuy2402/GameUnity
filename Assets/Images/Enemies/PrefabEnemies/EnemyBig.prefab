@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 9056749603222238944}
   - component: {fileID: 6965428256350008931}
   - component: {fileID: 4446796191652089715}
+  - component: {fileID: 5413356925124465686}
   m_Layer: 6
   m_Name: EnemyBig
   m_TagString: Enemy
@@ -309,6 +310,25 @@ MonoBehaviour:
   health: 0
   maxHealth: 4
   healthBar: {fileID: 5717918771315511085}
+--- !u!114 &5413356925124465686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4530618376058181697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bd244b31cd334b46b1937ee4c096d20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  droppedItemPrefab: {fileID: 3095332782452757248, guid: a52f3383c47be4745bc75fad02f62e78, type: 3}
+  lootList:
+  - {fileID: 11400000, guid: d906b4ecf3ba10346a5dadc005889c57, type: 2}
+  - {fileID: 11400000, guid: 35e009f97615d684b9d553059e201acd, type: 2}
+  - {fileID: 11400000, guid: 291a029fe61f7ea4f9657251f1fb76c9, type: 2}
+  - {fileID: 11400000, guid: baebf0284fec4784d8872e09c1b1bf05, type: 2}
+  - {fileID: 11400000, guid: 048df59fb68370c4b8717a8f64dc1d74, type: 2}
 --- !u!1 &5565919422370032008
 GameObject:
   m_ObjectHideFlags: 0
