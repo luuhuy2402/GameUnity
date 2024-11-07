@@ -51,6 +51,7 @@ public class LootBag : MonoBehaviour
 		if (droppedItem != null && droppedItem.lootPrefab != null)
 		{
 			GameObject lootGameObject= Instantiate(droppedItem.lootPrefab, spawnPosition, Quaternion.identity);
+			Debug.Log("dO NE");
 			//if (backgroundQuad != null)
 			//{
 			//	lootGameObject.transform.SetParent(backgroundQuad);

@@ -36,6 +36,7 @@ public class EnemiesColider : MonoBehaviour
     void Die()
     {
 		GetComponent<LootBag>().InstantiateLoot(transform.position);
+        
 		Destroy(gameObject);
     }
     private void OnCollisionEnter2D(Collision2D other)

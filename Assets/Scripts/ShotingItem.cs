@@ -6,13 +6,14 @@ using UnityEngine.UI;
 public class ShotingItem : MonoBehaviour
 {
     Animator Animator;
-    Object Ball;
+ 
     public int n=10;
 	public Text myText;
-	// Start is called before the first frame update
+	bool isShooting = false;
+	[SerializeField] public GameObject shootingPrefab; 
 	void Start()
     {
-		Ball = Resources.Load("Shooting");
+		
         Animator = GetComponent<Animator>();
 		UpdateBulletCountUI();
 
@@ -22,32 +23,38 @@ public class ShotingItem : MonoBehaviour
     void Update()
     {
         
-        if (Input.GetMouseButtonDown(1)& n>0)
+        if (Input.GetMouseButtonDown(0))
         {
             Shoot();
-        }
-		if (Input.GetKeyDown(KeyCode.H))
-		{
-			n += 2;
-            UpdateBulletCountUI();
+			
+			isShooting=!isShooting;
+			Animator.SetBool("isShooting", isShooting);
 		}
+		//if (Input.GetMouseButtonUp(0))
+		//{
+		//	n += 2;
+		//	Animator.SetBool("isShooting", false);
+		//	UpdateBulletCountUI();
+		//}
 
 	}
     void Shoot()
     {
-		Animator.SetBool("isShooting", true);
-		GameObject fireball = (GameObject)Instantiate(Ball);
+		//Animator.SetBool("isShooting", true);
+		GameObject fireball = (GameObject)Instantiate(shootingPrefab);
 		fireball.transform.position = new Vector3(transform.position.x + .4f, transform.position.y + .2f, -1);
         n--;
         UpdateBulletCountUI();
 		Invoke("TrigerAnim", 2f);
 
 	}
-    void TrigerAnim()
-    {
-        Animator.SetBool("isShooting", false);
-    }
-	void UpdateBulletCountUI()
+    //void TrigerAnim()
+    //{
+    //    Animator.SetBool("isShooting", false);
+    //}
+
+
+	public void UpdateBulletCountUI()
 	{
 		if (myText != null)
 		{

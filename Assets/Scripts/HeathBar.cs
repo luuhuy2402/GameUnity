@@ -8,6 +8,7 @@ public class HeathBar : MonoBehaviour
     public Image fillBar;
     public float heath=100;
 	public LifeCount lifeCount;
+
 	// Start is called before the first frame update
 	public void LoseHeath(int value)
     {
@@ -40,10 +41,20 @@ public class HeathBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		if (Input.GetKeyUp(KeyCode.Return))
+		//if (Input.GetKeyUp(KeyCode.Return))
+		//{
+		//	LoseHeath(10);
+  //          Debug.Log("Miss");
+		//}
+	}
+
+	//Phát hiện va chạm với quái
+	private void OnCollisionEnter2D(Collision2D collision)
+	{
+		if (collision.gameObject.CompareTag("Enemy")) // Đảm bảo quái có tag là "Enemy"
 		{
-			LoseHeath(10);
-            Debug.Log("Miss");
+			LoseHeath(10); // Trừ máu khi va chạm
 		}
 	}
+
 }
